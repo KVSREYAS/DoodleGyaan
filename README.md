@@ -1,6 +1,6 @@
-# Comic Book Generator
+# DoodleGyan
 
-This project is an AI-powered comic book generator designed for children. It allows them to create comics on any topic, primarily for educational purposes. The system generates high-quality visuals and compelling stories based on user input.
+DoodleGyan is an AI-powered comic book generator designed for children. It allows them to create comics on any topic, primarily for educational purposes. The system generates high-quality visuals and compelling stories based on user input.
 
 ## Technology Stack
 - **Image Generation:** Stable Diffusion
