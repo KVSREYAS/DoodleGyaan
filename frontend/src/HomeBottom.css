@@ -1,0 +1,32 @@
+.home-bottom-parent {
+        font-size: 2rem;
+        font-family: Badaboom;
+        color: rgb(0, 0, 0);
+        margin-top: 5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-shadow: 2px 2px 0px #000000, -2px -2px 0px #000000;
+        box-shadow: none;
+        text-shadow: none;
+        background-color: white;
+        margin-left: 0.1rem;
+        margin-right: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid black;
+        letter-spacing: 0.2rem;
+        font-size: 2rem;
+        margin-left: 13rem;
+        margin-bottom: 5rem;
+        transition: 0.3s ease-out;
+}
+
+.home-bottom-parent:hover {
+        background-color: black;
+        color: white;
+        transition: 0.3s ease-out;
+}

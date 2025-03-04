@@ -1,0 +1,9 @@
+.app-parent {
+    overflow-x: hidden;
+    width: 1920px;
+    height: 160vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    scroll-snap-type: none;
+  }

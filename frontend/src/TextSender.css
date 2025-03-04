@@ -1,0 +1,69 @@
+.container {
+  /* Center content vertically and horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Badaboom';
+  color: black;
+  background-color: white;
+  letter-spacing: 0.2em;
+  padding: 1em;
+  border: 3px black solid;
+}
+
+/* Set textarea to 60% width and center it */
+.textarea {
+  width: 30%;
+  height: 10em;
+  margin-bottom: 1rem;
+  padding: 8px;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  padding: 1%;
+  background-color: white;
+  /* margin-left: 10rem; */
+}
+
+/* Set button to 60% width and center it */
+.button {
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 4px;
+  border: 3px black solid;
+  font-family: 'Badaboom';
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  transition: 0.3s ease-out;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+/* Optional styling for the response box */
+.response-box {
+  width: 60%;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  text-align: center;
+}

@@ -1,0 +1,105 @@
+
+.parent {
+  width: 100vw; 
+  margin-right: 10.3rem;
+}
+
+.navbar {
+position: sticky;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem 2rem;
+background-color: transparent; /* Set background to transparent */
+font-family: 'Komika';
+font-size: larger;
+/* background: url('assets/navbar-bg.png'); */
+background: #080808;
+background-size: cover;
+box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+position: fixed;
+top: 0;
+width: 1920px;
+
+}
+
+.navbar-left {
+display: flex;
+align-items: center;
+margin-left: 10rem; 
+}
+
+.navbar-icon {
+width: 4rem;
+height: 2.5rem;
+}
+
+.navbar-center {
+display: flex;
+gap: 2.25rem;
+margin-right: 30rem;
+
+}
+
+.navbar-link {
+color: white;
+text-decoration: none;
+font-size: 1.4rem;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.navbar-right {
+display: flex;
+gap: 0.625rem;
+margin-right: 12rem;
+}
+
+.navbar-right * {
+width: 100px;
+height: 40px;
+color: black;
+border: none;
+cursor: pointer;
+font-size: 1rem;
+text-decoration: none;
+}
+
+
+.navbar-login {
+background: none;
+color: white;
+font-size: 1.4rem;
+font-family: 'Komika';
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.navbar-signup {
+background: none;
+color: black;
+font-size: 1.4rem;
+width: 150%;
+font-family: 'Komika';
+background: white;
+border: 0cm solid black;
+margin-left: 1rem;
+border-radius: 10% 10% 10% 10%;
+padding-left: 2rem;
+}
+
+.navbar-signup:hover {
+background-color: rgb(255, 208, 0);
+transition: 0.4s ease-in-out;
+
+
+}
+
+.navbar-link {
+border-bottom: 3px solid transparent;
+}
+
+.navbar-link:hover, .navbar-login:hover {
+/* border-color: black; */
+color: rgb(255, 208, 0);
+transition: 0.4s ease-in-out;
+}

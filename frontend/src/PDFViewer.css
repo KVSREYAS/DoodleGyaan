@@ -1,0 +1,67 @@
+.pdf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .input-area {
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 3px black solid;
+  }
+  
+  .button {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    height: 5rem;
+    color: black;
+    cursor: pointer;
+    width: 30%;
+    font-size: 3rem;
+    border: 3px black solid;
+  }
+  
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pdf-wrapper {
+    width: 60%;
+    margin-bottom: 5rem;
+    zoom: 25%;
+  }
+  
+  .fetchpdf {
+    width: 35rem;
+    height: 5rem;
+    margin-left: 42rem;
+    border: 3px black solid;
+    font-family: 'Badaboom';
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 5rem;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    transition: 0.3s ease-out;
+  }
+
+  .fetchpdf:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+  }
+
+  .pdfviewer {
+    margin-left: 25%;
+  }

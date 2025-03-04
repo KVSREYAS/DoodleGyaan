@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Komika;
+    src: url(assets/komikaaxis.ttf);
+  }
+
+@font-face {
+  font-family: 'Badaboom';
+  src: url(assets/badaboom.ttf);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    width: 100vw  ;
+    overflow: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: 
+      url('assets/combined-bg.png');
+    background-size: 100vw;
+  }

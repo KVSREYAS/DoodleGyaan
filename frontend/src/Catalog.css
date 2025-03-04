@@ -1,0 +1,52 @@
+catalog.css
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: yellowgreen;
+    font-family: 'Badaboom';
+}
+
+h1 {
+    font-size: 3.2rem;
+    line-height: 1.1;
+}
+
+.catalog {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+}
+
+.catalog-grid {
+    display: grid;
+    width: 40%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.catalog-item {
+    width:80%;  
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    /* padding: 10px;  */
+    text-align: center;
+}
+
+.catalog-item:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 2);
+}
+
+.catalog-item img {
+    max-width: 100%;
+    /* height: auto; */
+    vertical-align: middle;
+}
