@@ -16,13 +16,10 @@ This project is an AI-powered comic book generator designed for children. It all
 
 ## Sample Images
 ![Image](https://github.com/user-attachments/assets/f9c1fcd0-94a9-4ea9-854a-d8a0a8f9e38e)
-*Example of a generated comic panel.*
 
 ![Image](https://github.com/user-attachments/assets/d2b93c75-46be-452f-99a6-013292a2f57c)
-*Illustration of a story scene.*
 
 ![Image](https://github.com/user-attachments/assets/6161f64c-3832-4de3-8ed6-255d8e49901c)
-*Final comic book layout.*
 
 ## Installation & Setup
 ```sh
